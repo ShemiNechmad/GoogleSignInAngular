@@ -15,6 +15,7 @@ You would consider to use Google Identity Library directly because:
 1) Add the Google Identity script tag, shown on file index.html.
 2) Add a div with an Id, shown on app.component.html file.
 3) Follow the changes on app.module.ts and app.component.ts files.
+4) Make sure to put your own google client id in its place, in the app.module.ts file.
 
 # Angular13
 
