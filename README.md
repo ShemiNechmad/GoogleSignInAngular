@@ -10,6 +10,12 @@ You would consider to use Google Identity Library directly because:
 
 4) If angularx-social-login will upgrade to Google Identity it will be only for Angular13 and above. So if you have a lower version, this could be a solution for you.
 
+# What to do:
+
+1) Add the Google Identity script tag, shown on file index.html.
+2) Add a div with an Id, shown on app.component.html file.
+3) Follow the changes shown on app.component.ts file.
+
 # Angular13
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
