@@ -1,3 +1,10 @@
+This repository is an example of how to use Google Identity Sign In with Angular, directly, without using any external library.
+You would consider to use Google Identity Library directly because:
+1 ) Google Javascript library platform is deprecated and will be out of use from March 2023.
+2) At the moment, the external library for google sign in (angularx-social-login) is deprecated as well because of that.
+3) There are no other libraries apparently for signing in with google.
+4) If angularx-social-login will upgrade to Google Identity it will be only for Angular13 and above. So if you have a lower version, this could be a solution for you.
+
 # Angular13
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
