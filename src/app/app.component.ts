@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
 
 declare var google: any;
 
@@ -7,15 +7,11 @@ declare var google: any;
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
 
   constructor() { }
 
-  ngOnInit() {
-    window.onload = () => this.initializeSignIn();
-  }
-
-  initializeSignIn() {
+  ngAfterViewInit(): void {
     google.accounts.id.initialize({
       client_id: "236025958894-l05tha7iovc0ool81upch4i6gi91npe8.apps.googleusercontent.com",
       callback: this.handleCredentialResponse.bind(Response)
