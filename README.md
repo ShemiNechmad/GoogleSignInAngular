@@ -6,9 +6,7 @@ You would consider to use Google Identity Library directly because:
 
 2) At the moment, the external library for google sign in (angularx-social-login) is deprecated as well because of that.
  
-3) There are no other libraries apparently for signing in with google.
-
-4) If angularx-social-login will upgrade to Google Identity it will be only for Angular13 and above. So if you have a lower version, this could be a solution for you.
+3) If angularx-social-login will upgrade to Google Identity it will be only for Angular13 and above. So if you have an earlier version, this could be a solution for you.
 
 # What to do:
 
